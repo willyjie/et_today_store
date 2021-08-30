@@ -36,7 +36,7 @@
 /.env.local
 /.env.*
 /.env.*.local
-/config/database.yml
+config/database.yml
 /config/application.yml
 
 /public/packs
