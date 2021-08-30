@@ -31,6 +31,16 @@ gem "bootsnap", ">= 1.4.4", require: false
 # Setting Related
 gem "settingslogic", "~> 2.0.9"
 
+# Auth Related
+gem "devise", "~> 4.7", ">= 4.7.1"
+
+# Active Record Related
+gem "ransack", "~> 2.3"
+gem "kaminari", "~> 1.1", ">= 1.1.1"
+gem "simple_form", "~> 5.0.2"
+gem "jsonapi-serializer"
+gem "active_hash"
+
 group :development, :test do
   # Call "byebug" anywhere in the code to stop execution and get a debugger console
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
