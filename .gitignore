@@ -32,6 +32,13 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
+# It should add again by sample
+/.env.local
+/.env.*
+/.env.*.local
+/config/database.yml
+/config/application.yml
+
 /public/packs
 /public/packs-test
 /node_modules
