@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  resources :users
+  root to: "admin/orders#index"
+
+  namespace :admin do
+    resources :orders
+  end
 end
