@@ -4,5 +4,6 @@ Rails.application.routes.draw do
 
   namespace :admin do
     resources :orders
+    resources :suppliers, except: :show
   end
 end
